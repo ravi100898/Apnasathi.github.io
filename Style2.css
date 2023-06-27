@@ -1,0 +1,70 @@
+body{
+  background:linear-gradient(to top ,rgba(0,0,0,0.5)70%,rgba(0,0,0.5)110%), url(img/14.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.box1-img{
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-filter: blur(5px);
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+}
+.total{
+  width: 100%;
+  padding-bottom: 1px;
+}
+.form-control1{
+    background-color: aliceblue;
+    height: fit-content;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px;
+    width: 450px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 25px;
+  }
+  .heading{
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 3px;
+    margin: 12px;
+    color: aliceblue;
+    box-shadow: inset;
+  }
+  .email,.password,.mobile-no,.select,.birthday{
+    text-align: center;
+  }
+  .checkbox,.Submit,.gender{
+    text-align: center;
+  }
+  .button{
+    padding: 10px;
+    height:40px;
+    width: 200px;
+    background-color: rgba(0, 0, 255, 0.648);
+    border-radius: 25px;
+    margin:12px;
+  }
+  .Submit{
+    font-size: 15px;
+    color: white;
+  }
+input::placeholder{
+  font-size: larger;
+  font-weight: bold;
+}
+.birthday{
+  margin-bottom: 12px;
+}
+.gender,.birthday{
+  font-size: larger;
+  margin: 11px;
+}
+.checkbox,.birthday,.gender{
+  color: white;
+}

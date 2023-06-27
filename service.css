@@ -1,0 +1,28 @@
+body{
+    background-color: whitesmoke;
+    margin:30px;
+}
+.heading{
+    font-weight: 500;
+    font-size: larger;
+    font-weight: bolder;
+}
+.company{
+    margin: 15px 5px 10px;
+    padding: 0px;
+    border-style: none solid;
+    border-color: #d9d9d9;
+    border-width: medium 1px;
+    border-style:solid;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.heading2{
+    color: #F07700;
+    font: normal normal normal 16px arial;
+    padding: 15px 0 5px;
+}
+a{
+    color: #337ab7;
+    text-decoration: none;
+}

@@ -1,0 +1,237 @@
+body{
+    margin: 0px;
+    background-color: rgb(234, 238, 242);
+}
+.menu {
+    background-color: black;
+    display: flex;
+    padding: 15px;
+}
+.menuone {
+    margin-right: auto;
+}
+li {
+    list-style: none;
+    margin: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav2{
+    color: black;
+    margin: 20px;
+}
+.nav3{
+    color: black;
+    font-size: 30px;
+}
+.menu1{
+    background: url(image/1.jpg);
+    background-repeat: no-repeat;
+    background-size: 2560px;
+    height: 900px;
+    display: flex;
+    animation: sonu 4s linear infinite;*/
+}
+@keyframes sonu {
+    0%{
+        background: url(image/1.jpg);
+    }
+    0%{
+        background: url(image/box1.jpg);
+    }
+    0%{
+        background: url(image/box2.jpg);
+    }
+    0%{
+        background: url(image/box5.png);
+    }
+    
+}
+.first{
+    display: flex;
+}
+img{
+    height: 400px;
+    width: 800px;
+}
+.first{
+    margin: 33px;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+.frame{
+    display: flex;
+    margin-left: 40px;
+
+}
+.frame2{
+    margin-left: 4px;
+}
+.fchild{
+    height: 598px;
+    display: flex;
+}
+.frameset{
+    height: 1203px;
+    width: 1217px;
+}
+.frameset1{
+    margin-top: 5px;
+    height: 601px;
+    width: 1217px;
+}
+.frameset3{
+    height: 598px;
+    width: 606px;
+}
+.frameset4{
+    height: 598px;
+    width: 606px;
+    margin-left: 5px;
+}
+.menuo{
+    display: flex;
+    
+
+}
+.abc{
+    font-size: 40px;
+    color: black;
+}
+menu{
+    background-color: rgb(244, 234, 234);
+    margin: auto;
+    display: flex;
+    border-radius: 50%;
+    
+}
+.menuon{
+    display: flex;
+}
+.box1{
+    display: flex;
+    margin-top: 40px;
+}
+.box2{
+    margin-left: 40px;
+    height: 1150px;
+    width: 24%;
+
+}
+.box3{
+    margin-left: 21px;
+    height: 1150px;
+    width: 23%;
+
+
+}
+.box4{
+    margin-left: 21px;
+    height: 1150px;
+    width: 23%;
+
+
+}
+.box5{
+    margin-left: 21px;
+    height: 1150px;
+    width: 24%;
+    
+
+}
+.box31{
+    height: 565px;
+    background-color: white;
+
+    
+}
+.box32{
+    margin-top: 21px;
+    height: 565px;
+    background-color: white;
+
+}
+.img1{
+    height: 1150px;
+    width: 100%;
+}
+.img2{
+    width: 350px;
+    height: 350px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(26, 24, 24);
+}
+.name{
+    color: red;
+    font-weight: bolder;
+
+}
+.ex{
+    margin-top: 100px;
+    display: flex;
+}
+.box11{
+    height: 700px;
+    width: 48%;
+    margin-left: 38px;
+}
+.box12{
+    height: 700px;
+    width: 48%;
+    margin-left: 20px;
+}
+.img3{
+    height: 500px;
+    width: 100%;
+}
+.vide{
+   display: flex;
+   margin-left: 25px;
+}
+.video1{
+    background-color: blue;
+    height: 700px;
+    width: 32%;
+    margin: 12px;
+}
+.image1{
+    display: block;
+}
+.image12{
+    height: 1300px;
+    width: 97%;
+    margin-left: 40px;
+    background-color: white;
+}
+.lower{
+    display: flex;
+}
+.lower1{
+    height: 100px;
+    width: 33%;
+    background-color: aqua;
+    margin: 39px;
+}
+.set{
+
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+
+}
+spam{
+    font-size: 30px;
+    margin-left: 29px;
+}

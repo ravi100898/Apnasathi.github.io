@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>main screen</title>
+    </head>
+    <link rel="stylesheet" href="singin.css">
+    <body>
+        <div class="box1">
+            <img src="img/14.jpg" class="box1-img">
+            <div class="box2">
+                <div class="box3">
+                    <p class="box3a">No.1 Matchmaking Service <p class="box3b">Apna Sathi.com</p></p>
+                </div>
+                <div class="box4">
+                    <div class="box4a"><img src="img/lock-removebg-preview.png" class="box4aimg"></div>
+                    <div class="box4b">
+                        <p class="forget">Forget Password ?</p>
+                        <p class="forget1">You Can Reset Your Password Here.</p>
+                        <form action="forget.html" onsubmit="return validates()" method="post">
+                        <div class="box5"><input type="number" id="number" value="" required placeholder="Register Mobile No"></div><p id="alert"><spam class="hide">U</spam></p>
+                        <div class="box5c"><button id="submit">Sent  Otp</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <script>
+            function validates(){
+                var number = document.getElementById("number").value;
+                if(number.length==""){
+                    document.getElementById("alert").innerHTML="**please enter your ragister number"
+                    return false;
+                }
+                else if(number,length>12){
+                    document.getElementById("alert").innerHTML="**max towelth digits "
+                    return false;
+                }
+                else if(number!=7258873916){
+                    document.getElementById("alert").innerHTML="**not register your number "
+                    return false;
+                }
+                else if(otp!=7258){
+                    document.getElementById("alert1").innerHTML="**wrong otp"
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,89 @@
+
+.box{
+    display: flex;
+    width: 100%;
+
+}
+.text{
+    width: 45%;
+    background-color:whitesmoke;
+    margin-right: 8px;
+    border-radius: 25px;
+}
+.total1{
+    width: 50%;
+    margin-left: 18px;
+    font-size: large;
+    font-weight: 400;
+    border-radius: 25px;
+    margin-top: 5px;
+    background-color:whitesmoke;
+}
+.heading1{
+    color:#d9475c;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bolder;
+}
+.paragraph{
+    text-align: justify;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px;
+}
+.headoffice{
+    color: Black;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 200;
+    margin-left: 10px;
+    
+}
+.details{
+    margin: 18px;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px
+}
+
+.ftext,.email,.number,.textarea,.sub{
+    margin: 15px;
+    border-radius: 25px;
+
+}
+.form-control2{
+    text-decoration: none;
+    width: 250px;
+    height: 22px;
+    border-radius: 25px;
+  }
+.button{
+    margin-left: 40vh;
+    margin-bottom: 3px;
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 70%;
+    padding: 10px;
+    max-width: 150px;
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 0;
+   
+  }
+.abc{
+    font-size: large;
+    font-weight: 100;
+    margin-left: 10px;
+}
+.sub{
+    gap: 20px;
+}
+.total1 p{
+    margin-left: 15px;
+}
